@@ -4383,6 +4383,11 @@ packages:
     engines: {node: '>= 14'}
     hasBin: true
 
+  yaml@2.7.1:
+    resolution: {integrity: sha512-10ULxpnOCQXxJvBgxsn9ptjq6uviG/htZKk9veJGhlqn3w/DxQ631zFF+nlQXLwmImeS5amR2dl2U8sg6U9jsQ==}
+    engines: {node: '>= 14'}
+    hasBin: true
+
   yamljs@0.3.0:
     resolution: {integrity: sha512-C/FsVVhht4iPQYXOInoxUM/1ELSf9EsgKH34FofQOp6hwCPrW4vG4w5++TED3xRUo8gD7l0P1J1dLlDYzODsTQ==}
     hasBin: true
@@ -4537,7 +4542,7 @@ snapshots:
       cspell-trie-lib: 8.18.1
       glob: 10.4.5
       hunspell-reader: 8.18.1
-      yaml: 2.7.0
+      yaml: 2.7.1
     transitivePeerDependencies:
       - typescript
 
@@ -5953,7 +5958,7 @@ snapshots:
     dependencies:
       '@cspell/cspell-types': 8.18.1
       comment-json: 4.2.5
-      yaml: 2.7.0
+      yaml: 2.7.1
 
   cspell-dictionary@8.18.1:
     dependencies:
@@ -8682,6 +8687,8 @@ snapshots:
   yallist@5.0.0: {}
 
   yaml@2.7.0: {}
+
+  yaml@2.7.1: {}
 
   yamljs@0.3.0:
     dependencies:
